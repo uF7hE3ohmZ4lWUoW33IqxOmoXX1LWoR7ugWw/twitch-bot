@@ -38,10 +38,10 @@ You will need to set repository action secrets for the pipline to automatically 
 
 - go to your repository settings -> secrets -> actions
 - Add repository secrets with these key:value pairs
-  a. TWITCH_OAUTH_TOKEN: { your token from the env file }
-  b. HEROKU_EMAIL: { the email you used to create your heroku account }
-  c. HEROKU_APP_NAME: { your apps name on heroku }
-  d. HEROKU_API_KEY: { your heroku api key } - on heroku go to account settings and scroll down until you see 'API KEY'
+  - TWITCH_OAUTH_TOKEN: { your token from the env file }
+  - HEROKU_EMAIL: { the email you used to create your heroku account }
+  - HEROKU_APP_NAME: { your apps name on heroku }
+  - HEROKU_API_KEY: { your heroku api key } - on heroku go to account settings and scroll down until you see 'API KEY'
 - All pushes to the `main` branch will now trigger automatic deploys and updates to your application
 
 # Contributing
