@@ -1,4 +1,4 @@
-# Awwaken Twitch Bot
+# Awaken Twitch Bot
 
 The twitch bot for my Awaken: Chaos Era API
 
