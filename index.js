@@ -37,8 +37,8 @@ client.on("message", async (channel, user, message, self) => {
     return;
   }
 
-  const apiUrl = "http://awaken.imbrett.io/api/";
-  const baseUrl = apiUrl.replace("api/", "");
+  const apiUrl = "https://awaken-api.herokuapp.com/api/v1";
+  const baseUrl = apiUrl.replace("api/v1", "");
   const args = message.split(" ");
   const endpoint = args[0].replace("~", "");
   const search = args[1];
